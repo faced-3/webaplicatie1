@@ -1,0 +1,220 @@
+* {
+  font-family: 'Lato';
+  font-weight: 300;
+  font-style: normal;
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+body {
+  background-color: #838f95;
+  width: 100%;
+  height: 80vh;
+}
+
+main {
+  width: 100%;
+  display: flex;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  height: 10vh;
+  align-items: center;
+  position: sticky;
+  overflow: hidden;
+  z-index: 100;
+  top: 0;
+  background-color: #1C110A;
+
+}
+
+nav ul {
+  list-style-type: none;
+  overflow: hidden;
+  width: 100%;
+  height: 10%;
+ 
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  padding: 45px 63px;
+  text-decoration: none;
+
+}
+
+nav ul li a:hover {
+  background-color: darkgray;
+  height: 20px;
+}
+/*menu*/ 
+.stroke{
+  width: 50%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+}
+.special{
+  height: 10%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #D4A757;
+  font-size: 150%;
+}
+.special_burger{
+  width: 100%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+}
+.burger_container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: rgb(192, 57, 57);
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.burgername{
+  font-size: 300%;
+}
+.burger_container2{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(7, 6, 6);
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  justify-content: space-evenly;
+
+} 
+.Ingrediënten{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 50%;
+}
+/*right stroke*/
+.right_stroke{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  
+}
+.order_list{
+  width: 100%;
+  height: 90vh;
+  background-color: rgb(192, 57, 57);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow-y: scroll;
+ 
+}
+
+.order_item{
+  margin: 7%;
+  width: 70%;
+  height: 100%;
+  background-color: #D9D9D9;
+  border-radius: 13%;
+  display: flex;
+  flex-direction: column;
+  
+}
+.product{
+  margin-left: 10%;
+}
+.placement_row{
+  display: flex;
+  width: 100%;
+  height: 50%;
+}
+.top_row{
+  width: 50%;
+  height: 20%;
+  display: flex;
+  justify-content: flex-start;
+  margin: 3%;
+  margin-top: 2%;
+}
+.img_box{
+ margin: 3%;
+  width: 60%;
+  height: 600%;
+}
+.bottom_row{
+  width: 10%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  padding-left: 85%;
+}
+.omschrijving_box{
+  display: flex;
+  width: 50%;
+}
+
+/*search*/
+.search{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+.search_list{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(192, 57, 57);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow-y: scroll;
+ 
+}
+/*admin*/
+.column{
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 20px;
+}
+/*login*/
+.login_page{
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.login_input{
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input_box{
+  width: 50%;
+  height: 30px;
+  font-size: 15px;
+}

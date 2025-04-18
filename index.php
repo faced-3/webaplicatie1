@@ -56,8 +56,8 @@ include('./dbcalls/read.php');
 
             <section class="special_burger">
                 <section class="burger_container">
-                    <h1>Truffel Wagyu Burger</h1>
-                    <img src="assets/img/truffelwagyuburger.png" alt="truffelwagyuburger" height="100px" width="100px">
+                    <h1 class="burgername">Truffel Wagyu Burger</h1>
+                    <img src="assets/img/truffelwagyuburger.png" alt="truffelwagyuburger" height="150px" width="150px">
                     <section class="Ingrediënten">
                         <h2>Ingrediënten</h2>
                         <h4> Wagyu-rundvlees
@@ -84,8 +84,8 @@ include('./dbcalls/read.php');
 
 
                 <section class="burger_container2">
-                    <h1>Black Truffle Burger</h1>
-                    <img src="assets/img/blacktruffleburger.png" alt="blacktruffleburger" height="100px" width="100px">
+                    <h1 class="burgername">Black Truffle Burger</h1>
+                    <img src="assets/img/blacktruffleburger.png" alt="blacktruffleburger" height="150" width="150">
                     <section class="Ingrediënten">
                         <h2>Ingrediënten</h2>
                         <h4>
